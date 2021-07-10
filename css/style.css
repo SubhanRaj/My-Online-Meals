@@ -1,0 +1,120 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Yomogi&display=swap');
+
+/* Sample font family, can be used as per need */
+
+/* font-family: 'Baloo Bhai 2',cursive;
+font-family: 'Bree Serif',serif;
+font-family: 'Yomogi',cursive; */
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation Bar: Logo and Image */
+
+#logo {
+    margin: 5px 20px;
+}
+
+#logo img {
+    height: 100px;
+    width: 100px;
+    margin: 3px 6px;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+#navbar {
+    position: relative;
+}
+#navbar ul {
+    display: flex;
+    font-family: 'Bree Serif',serif;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 23px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+}
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Home Section Style */
+#home::before{
+    content: "";
+    background: url('/images/backgrounds/chopping-board.jpg') no-repeat center center;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.95;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding: 5px 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif',serif;
+}
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Yomogi',cursive;
+}
+
+/* Utility Classes */
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 6px 20px;
+    background-color: brown;
+    border: 2px solid white;
+    margin: 18px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
