@@ -112,14 +112,13 @@ html {
 }
 
 #home h1 {
-    color: black;
+    color: white;
     text-align: center;
     font-family: 'Bree Serif', serif;
-    opacity: 0.89;
 }
 
 #home p {
-    color: black;
+    color: white;
     text-align: center;
     font-size: 1.1rem;
     font-family: 'Yomogi', cursive;
