@@ -77,7 +77,8 @@ font-family: 'Yomogi',cursive; */
 /* Home Section Style */
 #home::before {
     content: "";
-    background: url('/images/chopping-board.jpg') no-repeat center center;
+    background: url("/images/chopping-board.jpg") no-repeat center center;
+    
     position: absolute;
     z-index: -1;
     height: 642px;
