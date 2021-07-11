@@ -101,13 +101,18 @@ font-family: 'Yomogi',cursive; */
 }
 
 #home p {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 1.1rem;
     font-family: 'Yomogi', cursive;
+
 }
 
 /* Services Section */
+
+.services-container {
+    margin-top: 2rem;
+}
 
 #services {
     display: flex;
@@ -137,13 +142,13 @@ font-family: 'Yomogi',cursive; */
 .h-primary {
     font-size: 2.8rem;
     padding: 12px;
-    font-family: 'Bree Serif',serif;
+    font-family: 'Bree Serif', serif;
 }
 
 .h-secondary {
     font-size: 2.3rem;
     padding: 12px;
-    font-family: 'Bree Serif',serif;
+    font-family: 'Bree Serif', serif;
 }
 
 .btn {
