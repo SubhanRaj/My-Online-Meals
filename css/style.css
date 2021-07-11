@@ -16,11 +16,25 @@ font-family: 'Yomogi',cursive; */
 }
 
 /* Navigation Bar */
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
 #navbar {
     display: flex;
     align-items: center;
     position: absolute;
     top: 0;
+    width: 100%;
 }
 
 /* Navigation Bar: Logo and Image */
@@ -37,27 +51,18 @@ font-family: 'Yomogi',cursive; */
 
 /* Navigation Bar: List Styling */
 
-#navbar::before {
-    content: "";
-    background-color: black;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    opacity: 0.7;
-}
-
-
 #navbar ul {
     display: flex;
     font-family: 'Bree Serif', serif;
+    justify-content: center;
+    width: 100%;
+
 }
 
 #navbar ul li {
     list-style: none;
     font-size: 1.3rem;
+        
 
 }
 
@@ -67,6 +72,7 @@ font-family: 'Yomogi',cursive; */
     text-decoration: none;
     border-radius: 20px;
     color: white;
+    
 }
 
 #navbar ul li a:hover {
@@ -77,8 +83,7 @@ font-family: 'Yomogi',cursive; */
 /* Home Section Style */
 #home::before {
     content: "";
-    background: url("/images/chopping-board.jpg") no-repeat center center;
-    
+    background: url('/images/bg1.jpg') no-repeat center center;
     position: absolute;
     z-index: -1;
     height: 642px;
@@ -96,9 +101,10 @@ font-family: 'Yomogi',cursive; */
 }
 
 #home h1 {
-    color: white;
+    color: black;
     text-align: center;
     font-family: 'Bree Serif', serif;
+    opacity: 0.89;
 }
 
 #home p {
@@ -111,31 +117,66 @@ font-family: 'Yomogi',cursive; */
 
 /* Services Section */
 
-.services-container {
-    margin-top: 2rem;
+#services-container {
+    margin: 4rem;
 }
+
+
 
 #services {
     display: flex;
-    margin: 34px;
+    margin: 30px;
 }
-
 #services .box {
     border: 2px solid brown;
     padding: 34px;
     margin: 3px 6px;
     border-radius: 28px;
     background: #f2f2f2;
+    box-shadow: -15px 15px 5px rgba(25, 48, 90, 0.5);
+
 }
 
 #services .box img {
     display: block;
     margin: auto;
     height: 160px;
+    border-radius: 10px;
 }
 
 #services .box p {
     font-family: 'Bree Serif', serif;
+}
+
+/* Client Section */
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url(/images/pizza.jpg);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#client-section {
+    position: relative;
+    height: 344px;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients img {
+    height: 125px;
+}
+
+.client-item {
+    padding: 20px;
 }
 
 /* Utility Classes */
