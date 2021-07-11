@@ -40,6 +40,14 @@ Used Open Source content
 
 
 ### Screenshots
+1. Home
+ ![Home Screen](https://user-images.githubusercontent.com/46089881/125206655-028a5200-e2a6-11eb-8137-65a5cf3e55ad.png)
+2. Services
+ ![Services](https://user-images.githubusercontent.com/46089881/125206778-92300080-e2a6-11eb-9bf6-f8adda447767.png)
+3. Clients
+ ![Clients](https://user-images.githubusercontent.com/46089881/125206816-be4b8180-e2a6-11eb-9258-a51eb4da066f.png)
+4. Contact Form
+ ![Contact](https://user-images.githubusercontent.com/46089881/125206929-429e0480-e2a7-11eb-8840-ca567842d61b.png)
 
 
 ## Authors
