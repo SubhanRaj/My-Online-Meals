@@ -19,6 +19,8 @@ font-family: 'Yomogi',cursive; */
 #navbar {
     display: flex;
     align-items: center;
+    position: absolute;
+    top: 0;
 }
 
 /* Navigation Bar: Logo and Image */
@@ -28,8 +30,8 @@ font-family: 'Yomogi',cursive; */
 }
 
 #logo img {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     margin: 3px 6px;
 }
 
@@ -39,17 +41,18 @@ font-family: 'Yomogi',cursive; */
     content: "";
     background-color: black;
     position: absolute;
+    top: 0;
+    left: 0;
     z-index: -1;
     height: 100%;
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.7;
 }
-#navbar {
-    position: relative;
-}
+
+
 #navbar ul {
     display: flex;
-    font-family: 'Bree Serif',serif;
+    font-family: 'Bree Serif', serif;
 }
 
 #navbar ul li {
@@ -65,26 +68,28 @@ font-family: 'Yomogi',cursive; */
     border-radius: 20px;
     color: white;
 }
+
 #navbar ul li a:hover {
     color: black;
     background-color: white;
 }
 
 /* Home Section Style */
-#home::before{
+#home::before {
     content: "";
-    background: url('images/chopping-board.jpg') no-repeat center center;
+    background: url('/images/chopping-board.jpg') no-repeat center center;
     position: absolute;
     z-index: -1;
-    height: 100%;
+    height: 642px;
     width: 100%;
-    opacity: 0.95;
+    opacity: 0.9;
 }
-#home{
+
+#home {
     display: flex;
     flex-direction: column;
-    height: 400px;
-    padding: 5px 200px;
+    height: 550px;
+    padding: 3px 200px;
     align-items: center;
     justify-content: center;
 }
@@ -92,20 +97,53 @@ font-family: 'Yomogi',cursive; */
 #home h1 {
     color: white;
     text-align: center;
-    font-family: 'Bree Serif',serif;
+    font-family: 'Bree Serif', serif;
 }
+
 #home p {
     color: white;
     text-align: center;
     font-size: 1.1rem;
-    font-family: 'Yomogi',cursive;
+    font-family: 'Yomogi', cursive;
+}
+
+/* Services Section */
+
+#services {
+    display: flex;
+    margin: 34px;
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background: #f2f2f2;
+}
+
+#services .box img {
+    display: block;
+    margin: auto;
+    height: 160px;
+}
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
 }
 
 /* Utility Classes */
 
-.h-primary{
+.h-primary {
     font-size: 2.8rem;
     padding: 12px;
+    font-family: 'Bree Serif',serif;
+}
+
+.h-secondary {
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: 'Bree Serif',serif;
 }
 
 .btn {
@@ -117,4 +155,8 @@ font-family: 'Yomogi',cursive; */
     border-radius: 10px;
     color: white;
     cursor: pointer;
+}
+
+.center {
+    text-align: center;
 }
