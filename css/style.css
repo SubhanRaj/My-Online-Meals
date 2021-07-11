@@ -93,7 +93,7 @@ html {
 /* Home Section Style */
 #home::before {
     content: "";
-    background: url('/images/bg1.jpg') no-repeat center center/cover;
+    background: url('https://subhanraj.github.io/My-Online-Meals/images/images/bg1.jpg') no-repeat center center/cover;
     position: absolute;
     z-index: -1;
     top: 0;
@@ -168,7 +168,7 @@ html {
 #client-section::before {
     content: "";
     position: absolute;
-    background: url('/images/pizza.jpg') no-repeat center center/cover;
+    background: url('https://subhanraj.github.io/My-Online-Meals/images/images/pizza.jpg') no-repeat center center/cover;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -204,7 +204,7 @@ html {
 
 #contact::before {
     content: "";
-    background: url('/images/contact.jpg') no-repeat center center/cover;
+    background: url('https://subhanraj.github.io/My-Online-Meals/images/images/contact.jpg') no-repeat center center/cover;
     position: absolute;
     width: 100%;
     height: 100%;
