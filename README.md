@@ -7,11 +7,10 @@
 
 # My Online Meals [View Live](https://subhanraj.github.io/My-Online-Meals/)
 
-A Competly Responsive Website made purely using HTML and CSS
+A Completly responsive Website made purely using HTML and CSS
 
 <b> I used GitHub Copilot, it helped me lot.</b>
-
- Signup for GitHub Copilot's Preview acess [here](https://copilot.github.com/) 
+Signup for GitHub Copilot's Preview acess [here](https://copilot.github.com/) 
 
 ## Features
 
